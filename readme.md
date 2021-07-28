@@ -6,4 +6,6 @@ BS652
 
 Connector placement https://github.com/mck1117/atlas ?
 
-Pinout https://docs.google.com/spreadsheets/d/14IxjitlEFrC2bSp0IRdNRyXZondlvw2CmJ3Q9DUdvyo
+rusEFI Pinout https://docs.google.com/spreadsheets/d/14IxjitlEFrC2bSp0IRdNRyXZondlvw2CmJ3Q9DUdvyo
+
+Also useful document https://docs.google.com/spreadsheets/d/1ywuDLkhp-Q8VnNsPLQVZCZtjmalo7IQzmFDbDqwyniM
