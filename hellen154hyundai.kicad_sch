@@ -6,7 +6,7 @@
 
   (title_block
     (title "hellen154yundai")
-    (date "2021-08-01")
+    (date "2021-09-12")
     (rev "a")
     (company "rusEFI")
     (comment 7 "http://rusefi.com/s/????")
@@ -13422,8 +13422,8 @@
     (property "Reference" "F2" (id 0) (at 46.99 200.8448 0)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "DNP" (id 1) (at 52.0977 202.0125 0)
-      (effects (font (size 1.016 1.016)))
+    (property "Value" "Fuse-Pad-Pad" (id 1) (at 52.0977 202.0125 0)
+      (effects (font (size 1.016 1.016)) hide)
     )
     (property "Footprint" "hellen-one-common:PAD-1206-PAD" (id 2) (at 52.07 205.74 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -13431,6 +13431,7 @@
     (property "Datasheet" "" (id 3) (at 52.07 201.93 0)
       (effects (font (size 1.524 1.524)) hide)
     )
+    (property "MyComment" "DNP" (id 5) (at 52.07 201.93 0))
     (pin "1" (uuid 427e7336-66a3-4b1a-9259-366679905efa))
     (pin "2" (uuid 5ad968f6-5ba9-4a3e-89fb-b943b2e40629))
   )
@@ -17886,7 +17887,7 @@
       (reference "F1") (unit 1) (value "Fuse-Pad-Pad") (footprint "hellen-one-common:PAD-1206-PAD")
     )
     (path "/e34334b4-5b30-4ed0-90c6-551b8cada4d1"
-      (reference "F2") (unit 1) (value "DNP") (footprint "hellen-one-common:PAD-1206-PAD")
+      (reference "F2") (unit 1) (value "Fuse-Pad-Pad") (footprint "hellen-one-common:PAD-1206-PAD")
     )
     (path "/86c1627d-c7c5-43c1-90d6-f5905d90278c"
       (reference "F3") (unit 1) (value "Fuse-16A") (footprint "hellen-one-common:36911600000")

@@ -445,7 +445,7 @@
       "netlist": "hw48na.net",
       "specctra_dsn": "",
       "step": "",
-      "vrml": "gerber/hellen64_miataNA6_94.wrl"
+      "vrml": "gerber/hellen154hyundai.wrl"
     },
     "page_layout_descr_file": "kicad-libraries/Border.kicad_wks"
   },
