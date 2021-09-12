@@ -1,3 +1,5 @@
+KiCAD 5.99
+
 rusEFI Pinout https://docs.google.com/spreadsheets/d/14IxjitlEFrC2bSp0IRdNRyXZondlvw2CmJ3Q9DUdvyo
 
 Also useful document https://docs.google.com/spreadsheets/d/1ywuDLkhp-Q8VnNsPLQVZCZtjmalo7IQzmFDbDqwyniM
