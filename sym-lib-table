@@ -6,6 +6,7 @@
   (lib (name "hellen-one-mcu-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mcu/0.2/mcu.kicad_sym")(options "")(descr "Hellen One MCU Module"))
   (lib (name "hellen-one-mcu-0.3")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mcu/0.3/mcu.kicad_sym")(options "")(descr "Hellen One MCU Module"))
   (lib (name "hellen-one-mcu-0.4")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mcu/0.4/mcu.kicad_sym")(options "")(descr "Hellen One MCU Module"))
+  (lib (name "hellen-one-mcu-0.5")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mcu/0.5/mcu.kicad_sym")(options "")(descr "Hellen One MCU Module"))
   (lib (name "hellen-one-can-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/can/0.1/can.kicad_sym")(options "")(descr "Hellen-One CAN Module"))
   (lib (name "hellen-one-lin-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/lin/0.1/lin.kicad_sym")(options "")(descr "Hellen-One K-LINE (LIN) Module"))
   (lib (name "hellen-one-sd-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/sd/0.1/sd.kicad_sym")(options "")(descr "Hellen-One microSD Card Module"))
