@@ -8,3 +8,7 @@
    (layer inner)
    (constraint clearance (min 0.3mm))
    (condition "A.NetClass == 'HV'"))
+
+(rule "0.15gap"
+   (constraint clearance (min 0.15mm))
+   (condition "A.insideCourtyard('U1') || A.insideCourtyard('U4')"))
