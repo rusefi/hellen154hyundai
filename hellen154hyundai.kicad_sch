@@ -5,11 +5,11 @@
   (paper "A1")
 
   (title_block
-    (title "hellen154yundai")
-    (date "2021-09-12")
+    (title "hellen154hyundai")
+    (date "2021-09-19")
     (rev "a")
     (company "rusEFI")
-    (comment 7 "http://rusefi.com/s/????")
+    (comment 7 "https://rusefi.com/s/hellen154hyundai")
   )
 
   (lib_symbols
@@ -4610,7 +4610,6 @@
     )
   )
 
-
   (junction (at 88.9 31.75) (diameter 1.016) (color 0 0 0 0))
   (junction (at 95.25 322.58) (diameter 1.016) (color 0 0 0 0))
   (junction (at 95.25 364.49) (diameter 1.016) (color 0 0 0 0))
@@ -5580,7 +5579,7 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid b17eafda-6e9c-4e5c-8860-efad8d758fd3)
   )
-  (wire (pts (xy 57.15 102.87) (xy 193.04 102.87))
+  (wire (pts (xy 57.15 102.87) (xy 189.23 102.87))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 8a7a38f6-d039-4c60-b27a-cd2db569180e)
   )
@@ -5848,11 +5847,11 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid b6e146c0-485f-4e1a-b159-d80a57e31635)
   )
-  (wire (pts (xy 193.04 318.77) (xy 193.04 102.87))
+  (wire (pts (xy 189.23 318.77) (xy 189.23 102.87))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 8a7a38f6-d039-4c60-b27a-cd2db569180e)
   )
-  (wire (pts (xy 193.04 318.77) (xy 210.82 318.77))
+  (wire (pts (xy 189.23 318.77) (xy 210.82 318.77))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid a0f359dd-b596-4b65-b84f-b5211482a154)
   )
@@ -8282,7 +8281,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 83b26787-2252-4d0e-bd7d-1cb927ca00a6)
   )
-  (text "http://rusefi.com/s/hellenNA6" (at 478.155 390.525 180)
+  (text "https://rusefi.com/s/hellen154hyundai" (at 483.235 390.525 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 955ece05-4523-48f1-830e-e5fe8e1f1ff7)
   )
@@ -16450,7 +16449,7 @@
     (property "Reference" "Q5" (id 0) (at 206.248 169.4191 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "AUIPS2041L" (id 1) (at 206.248 171.7178 0)
+    (property "Value" "AUIPS2041LTR" (id 1) (at 206.248 171.7178 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-223" (id 2) (at 209.55 170.18 0)
@@ -16473,7 +16472,7 @@
     (property "Reference" "Q6" (id 0) (at 206.248 199.8991 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "AUIPS2041L" (id 1) (at 206.248 202.1978 0)
+    (property "Value" "AUIPS2041LTR" (id 1) (at 206.248 202.1978 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-223" (id 2) (at 209.55 200.66 0)
@@ -18789,10 +18788,10 @@
       (reference "Q4") (unit 1) (value "ISL9V3040S3S") (footprint "Package_TO_SOT_SMD:TO-263-2")
     )
     (path "/490c94b5-e7b1-416d-89b1-93625fe80862"
-      (reference "Q5") (unit 1) (value "AUIPS2041L") (footprint "Package_TO_SOT_SMD:SOT-223")
+      (reference "Q5") (unit 1) (value "AUIPS2041LTR") (footprint "Package_TO_SOT_SMD:SOT-223")
     )
     (path "/f2730725-2c6a-4464-92c4-ec55738c462e"
-      (reference "Q6") (unit 1) (value "AUIPS2041L") (footprint "Package_TO_SOT_SMD:SOT-223")
+      (reference "Q6") (unit 1) (value "AUIPS2041LTR") (footprint "Package_TO_SOT_SMD:SOT-223")
     )
     (path "/40bb54e1-9aae-440a-a5bd-751019fee77f"
       (reference "R1") (unit 1) (value "470") (footprint "hellen-one-common:R0603-4")
