@@ -89,7 +89,7 @@
 "USB_B","J40","Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal","C46392"
 "Module-input-0.1","M1","hellen-one-input-0.1:input",""
 "Module-ign8-0.1","M2","hellen-one-ign8-0.1:ign8",""
-"Module-mcu-0.5","M3","hellen-one-mcu-0.5:mcu",""
+"Module-mcu144-0.5","M3","hellen-one-mcu-0.5:mcu",""
 "Module-sd-0.1","M4","hellen-one-sd-0.1:sd",""
 "Module-output-0.2","M5","hellen-one-output-0.2:output",""
 "Module-can-0.1","M6","hellen-one-can-0.1:can",""

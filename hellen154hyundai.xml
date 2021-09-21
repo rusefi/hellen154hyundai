@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>C:\Work\rusefi\github\hellen154hyundai\hellen154hyundai.kicad_sch</source>
-    <date>19/09/2021 21:06:02</date>
-    <tool>Eeschema (5.99.0-10483-ga6ad7a4a70)</tool>
+    <date>21/09/2021 05:54:29</date>
+    <tool>Eeschema (5.99.0-12439-g94954386e6)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>hellen154hyundai</title>
         <company>rusEFI</company>
-        <rev>a</rev>
-        <date>2021-09-19</date>
+        <rev>b</rev>
+        <date>2021-09-21</date>
         <source>hellen154hyundai.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -1014,7 +1014,6 @@
     <comp ref="J3">
       <value>Conn_01x06</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1024,7 +1023,6 @@
     <comp ref="J19">
       <value>Conn_01x01</value>
       <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1034,7 +1032,6 @@
     <comp ref="J20">
       <value>Conn_01x01</value>
       <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1044,7 +1041,6 @@
     <comp ref="J21">
       <value>Conn_01x01</value>
       <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1054,7 +1050,6 @@
     <comp ref="J22">
       <value>Conn_01x01</value>
       <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1064,7 +1059,6 @@
     <comp ref="J24">
       <value>Conn_01x01</value>
       <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1074,7 +1068,6 @@
     <comp ref="J25">
       <value>AudioJack3_SwitchTR</value>
       <footprint>hellen-one-common:Jack_3.5mm_PJ-3250-5A</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C165947</field>
       </fields>
@@ -1088,7 +1081,6 @@
     <comp ref="J39">
       <value>Conn_01x04</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1116,7 +1108,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ef04da57-4b19-4699-a300-a7c31972f6602491bc1e-e5b1-4fb8-a6b1-0e8865d2abd055b40ec7-180b-4cdb-a45d-769423e8b51b0437e834-c13e-424a-9ad2-040b8ce9ed1d</tstamps>
+      <tstamps>ef04da57-4b19-4699-a300-a7c31972f660 2491bc1e-e5b1-4fb8-a6b1-0e8865d2abd0 55b40ec7-180b-4cdb-a45d-769423e8b51b 0437e834-c13e-424a-9ad2-040b8ce9ed1d</tstamps>
     </comp>
     <comp ref="M2">
       <value>Module-ign8-0.1</value>
@@ -1128,13 +1120,13 @@
       <tstamps>91b56abf-9ad5-4be8-a5c5-2398d74dccc7</tstamps>
     </comp>
     <comp ref="M3">
-      <value>Module-mcu-0.5</value>
+      <value>Module-mcu144-0.5</value>
       <footprint>hellen-one-mcu-0.5:mcu</footprint>
       <libsource lib="hellen-one-mcu-0.5" part="Module-mcu-0.5" description="Hellen One MCU Module"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>95de6146-cd95-4d2b-b5b7-1d4bb3509d3849ccbfa3-3ad5-43f4-a83c-30cf23b93d6814c5207f-32de-4c5d-954b-555e17a4f4c200870ade-3767-4a96-a317-ccad7c6e82bd</tstamps>
+      <tstamps>14c5207f-32de-4c5d-954b-555e17a4f4c2 49ccbfa3-3ad5-43f4-a83c-30cf23b93d68 95de6146-cd95-4d2b-b5b7-1d4bb3509d38 00870ade-3767-4a96-a317-ccad7c6e82bd</tstamps>
     </comp>
     <comp ref="M4">
       <value>Module-sd-0.1</value>
@@ -1152,7 +1144,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>229bfd16-421d-49a0-a382-7d5056ead6a8808ed398-2b6d-4dc7-971d-699409b9d7b50daa1d7b-dc4e-4925-8d2c-7394a8bbb0e2</tstamps>
+      <tstamps>808ed398-2b6d-4dc7-971d-699409b9d7b5 229bfd16-421d-49a0-a382-7d5056ead6a8 0daa1d7b-dc4e-4925-8d2c-7394a8bbb0e2</tstamps>
     </comp>
     <comp ref="M6">
       <value>Module-can-0.1</value>
@@ -1216,12 +1208,11 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e6d3770c-f14f-478b-acfd-b0326bb27073e21bda80-cdd9-47ea-90e1-64363eb76deb</tstamps>
+      <tstamps>e6d3770c-f14f-478b-acfd-b0326bb27073 e21bda80-cdd9-47ea-90e1-64363eb76deb</tstamps>
     </comp>
     <comp ref="P2">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1231,7 +1222,6 @@
     <comp ref="P3">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1241,7 +1231,6 @@
     <comp ref="P4">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1251,7 +1240,6 @@
     <comp ref="P5">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1261,7 +1249,6 @@
     <comp ref="P6">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1271,7 +1258,6 @@
     <comp ref="P7">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1281,7 +1267,6 @@
     <comp ref="P8">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1291,7 +1276,6 @@
     <comp ref="P9">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1301,7 +1285,6 @@
     <comp ref="P10">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1311,7 +1294,6 @@
     <comp ref="P11">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1321,7 +1303,6 @@
     <comp ref="P12">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1331,7 +1312,6 @@
     <comp ref="P13">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1341,7 +1321,6 @@
     <comp ref="P14">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1351,7 +1330,6 @@
     <comp ref="P15">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1361,7 +1339,6 @@
     <comp ref="P16">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1371,7 +1348,6 @@
     <comp ref="P17">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1381,7 +1357,6 @@
     <comp ref="P18">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1391,7 +1366,6 @@
     <comp ref="P19">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1401,7 +1375,6 @@
     <comp ref="P20">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1411,7 +1384,6 @@
     <comp ref="P21">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1421,7 +1393,6 @@
     <comp ref="P22">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1431,7 +1402,6 @@
     <comp ref="P23">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1441,7 +1411,6 @@
     <comp ref="P24">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1451,7 +1420,6 @@
     <comp ref="P25">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1461,7 +1429,6 @@
     <comp ref="P26">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1471,7 +1438,6 @@
     <comp ref="P27">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1481,7 +1447,6 @@
     <comp ref="P28">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1491,7 +1456,6 @@
     <comp ref="P29">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1501,7 +1465,6 @@
     <comp ref="P30">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1511,7 +1474,6 @@
     <comp ref="P31">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1521,7 +1483,6 @@
     <comp ref="P32">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1531,7 +1492,6 @@
     <comp ref="P33">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1541,7 +1501,6 @@
     <comp ref="P34">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1551,7 +1510,6 @@
     <comp ref="P35">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1561,7 +1519,6 @@
     <comp ref="P36">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1571,7 +1528,6 @@
     <comp ref="P37">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1581,7 +1537,6 @@
     <comp ref="P38">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1591,7 +1546,6 @@
     <comp ref="P39">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1601,7 +1555,6 @@
     <comp ref="P40">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1611,7 +1564,6 @@
     <comp ref="P41">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1621,7 +1573,6 @@
     <comp ref="P42">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1631,7 +1582,6 @@
     <comp ref="P43">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1641,7 +1591,6 @@
     <comp ref="P44">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1651,7 +1600,6 @@
     <comp ref="P45">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1661,7 +1609,6 @@
     <comp ref="P46">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1671,7 +1618,6 @@
     <comp ref="P47">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1681,7 +1627,6 @@
     <comp ref="P48">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1691,7 +1636,6 @@
     <comp ref="P49">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1701,7 +1645,6 @@
     <comp ref="P50">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1711,7 +1654,6 @@
     <comp ref="P51">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1721,7 +1663,6 @@
     <comp ref="P52">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1731,7 +1672,6 @@
     <comp ref="P53">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1741,7 +1681,6 @@
     <comp ref="P54">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1751,7 +1690,6 @@
     <comp ref="P55">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1761,7 +1699,6 @@
     <comp ref="P56">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1771,7 +1708,6 @@
     <comp ref="P57">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1781,7 +1717,6 @@
     <comp ref="P58">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1791,7 +1726,6 @@
     <comp ref="P59">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1801,7 +1735,6 @@
     <comp ref="P60">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1811,7 +1744,6 @@
     <comp ref="P61">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1821,7 +1753,6 @@
     <comp ref="P62">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1831,7 +1762,6 @@
     <comp ref="P63">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1841,7 +1771,6 @@
     <comp ref="P64">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1851,7 +1780,6 @@
     <comp ref="P65">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1861,7 +1789,6 @@
     <comp ref="P66">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1871,7 +1798,6 @@
     <comp ref="P67">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1881,7 +1807,6 @@
     <comp ref="P68">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1891,7 +1816,6 @@
     <comp ref="P69">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1901,7 +1825,6 @@
     <comp ref="P70">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1911,7 +1834,6 @@
     <comp ref="P71">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1921,7 +1843,6 @@
     <comp ref="P72">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1931,7 +1852,6 @@
     <comp ref="P73">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1941,7 +1861,6 @@
     <comp ref="P74">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1951,7 +1870,6 @@
     <comp ref="P75">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1961,7 +1879,6 @@
     <comp ref="P76">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1971,7 +1888,6 @@
     <comp ref="P77">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1981,7 +1897,6 @@
     <comp ref="P78">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -1991,7 +1906,6 @@
     <comp ref="P79">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -2001,7 +1915,6 @@
     <comp ref="P80">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -2011,7 +1924,6 @@
     <comp ref="P81">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -2021,7 +1933,6 @@
     <comp ref="P82">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -2031,7 +1942,6 @@
     <comp ref="P83">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -2041,7 +1951,6 @@
     <comp ref="P84">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -2051,7 +1960,6 @@
     <comp ref="P85">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -2061,7 +1969,6 @@
     <comp ref="P86">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -2071,7 +1978,6 @@
     <comp ref="P87">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
-      <datasheet>~</datasheet>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
@@ -2081,7 +1987,6 @@
     <comp ref="Q1">
       <value>ISL9V3040S3S</value>
       <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C898702</field>
       </fields>
@@ -2095,7 +2000,6 @@
     <comp ref="Q2">
       <value>ISL9V3040S3S</value>
       <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C898702</field>
       </fields>
@@ -2109,7 +2013,6 @@
     <comp ref="Q3">
       <value>ISL9V3040S3S</value>
       <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C898702</field>
       </fields>
@@ -2123,7 +2026,6 @@
     <comp ref="Q4">
       <value>ISL9V3040S3S</value>
       <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="LCSC">C898702</field>
       </fields>
@@ -3277,7 +3179,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c43c9d4a-5fad-42c9-a7c6-3c2ef0041169ca5a3657-25e2-4020-a043-a7026e9204ac4fc00b0e-4906-49b6-906e-53ecedee471b</tstamps>
+      <tstamps>ca5a3657-25e2-4020-a043-a7026e9204ac c43c9d4a-5fad-42c9-a7c6-3c2ef0041169 4fc00b0e-4906-49b6-906e-53ecedee471b</tstamps>
     </comp>
     <comp ref="U4">
       <value>LPS25HB</value>
@@ -3482,13 +3384,13 @@
         <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="output"/>
+        <pin num="1" name="" type="output"/>
         <pin num="2" name="-" type="input"/>
         <pin num="3" name="+" type="input"/>
         <pin num="4" name="V-" type="power_in"/>
         <pin num="5" name="+" type="input"/>
         <pin num="6" name="-" type="input"/>
-        <pin num="7" name="~" type="output"/>
+        <pin num="7" name="" type="output"/>
         <pin num="8" name="V+" type="power_in"/>
       </pins>
     </libpart>
@@ -3504,11 +3406,11 @@
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="R" name="~" type="passive"/>
-        <pin num="RN" name="~" type="passive"/>
-        <pin num="S" name="~" type="passive"/>
-        <pin num="T" name="~" type="passive"/>
-        <pin num="TN" name="~" type="passive"/>
+        <pin num="R" name="" type="passive"/>
+        <pin num="RN" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+        <pin num="TN" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="USB_B">
@@ -3639,7 +3541,7 @@
         <pin num="3" name="GND" type="passive"/>
         <pin num="4" name="SDA/MOSI" type="bidirectional"/>
         <pin num="5" name="SA0/MISO" type="bidirectional"/>
-        <pin num="6" name="~CS" type="input"/>
+        <pin num="6" name="~{CS}" type="input"/>
         <pin num="7" name="INT_DRDY" type="output"/>
         <pin num="8" name="GND" type="power_in"/>
         <pin num="9" name="GND" type="passive"/>
@@ -3810,7 +3712,7 @@
       </fields>
       <pins>
         <pin num="1" name="SCL/SPC" type="input"/>
-        <pin num="2" name="~CS" type="input"/>
+        <pin num="2" name="~{CS}" type="input"/>
         <pin num="3" name="SA0/SDO" type="bidirectional"/>
         <pin num="4" name="SDA/SDI" type="bidirectional"/>
         <pin num="5" name="NC" type="passive"/>
@@ -4367,7 +4269,7 @@
       <node ref="U1" pin="9" pinfunction="Vdd" pintype="power_in"/>
       <node ref="U4" pin="1" pinfunction="VDDio" pintype="power_in"/>
       <node ref="U4" pin="10" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U4" pin="6" pinfunction="~CS" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="~{CS}" pintype="input"/>
     </net>
     <net code="2" name="+3V3_IGN">
       <node ref="M2" pin="V10" pinfunction="V33" pintype="passive"/>
@@ -4989,7 +4891,7 @@
     </net>
     <net code="124" name="/SPI3_CS">
       <node ref="M3" pin="N8" pinfunction="SPI3_CS" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="~CS" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="~{CS}" pintype="input"/>
     </net>
     <net code="125" name="/SPI3_MISO">
       <node ref="M3" pin="N10" pinfunction="SPI3_MISO" pintype="passive"/>
