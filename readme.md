@@ -1,6 +1,7 @@
 KiCAD 5.99
 
 4 layer board
+165 * 156mm
 
 rusEFI Pinout https://docs.google.com/spreadsheets/d/14IxjitlEFrC2bSp0IRdNRyXZondlvw2CmJ3Q9DUdvyo
 
