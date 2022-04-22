@@ -1,4 +1,4 @@
-KiCAD 5.99 runs [rusEFI](https://github.com/rusefi/rusefi)
+KiCAD 6 runs [rusEFI](https://github.com/rusefi/rusefi)
 
 4 layer board
 165 * 156mm
