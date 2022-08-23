@@ -1,4 +1,4 @@
-19942334143171696
+19932767857706138
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84776,7 +84776,7 @@ dinput4
 0
 22
 15
-hellen-one-ign8-0.1
+hellen-one-ign8-0.2
 ign8
 
 
@@ -84804,62 +84804,20 @@ lin
 0
 12
 8
-hellen-one-mcu-0.1
-mcu
-
-
-0
-120
-109
-hellen-one-mcu-0.2
-mcu
-
-
-0
-120
-109
-hellen-one-mcu-0.3
+hellen-one-mcu-0.6
 mcu
 
 
 0
 121
 109
-hellen-one-mcu-0.4
-mcu
-
-
-0
-121
-109
-hellen-one-mcu-0.5
-mcu
-
-
-0
-121
-109
-hellen-one-output-0.1
+hellen-one-output-0.3
 output
 
 
 0
 73
 59
-hellen-one-output-0.2
-output
-
-
-0
-73
-59
-hellen-one-power5-0.1
-power5
-
-
-0
-13
-3
 hellen-one-power5-0.2
 power5
 
@@ -84867,13 +84825,6 @@ power5
 0
 13
 3
-hellen-one-power12-0.1
-power12
-
-
-0
-14
-8
 hellen-one-power12-0.2
 power12
 
@@ -84895,14 +84846,7 @@ stlink
 0
 17
 7
-hellen-one-wbo-0.1
-wbo
-
-
-0
-28
-15
-hellen-one-wbo-0.2
+hellen-one-wbo-0.3
 wbo
 
 
@@ -84980,6 +84924,20 @@ Molex_367831201
 12
 12
 kicad6-libraries
+PG-DSO-8-43_VIA
+Infineon_PG-DSO-8-43
+DSO DSO-8 SOIC SOIC-8
+0
+13
+9
+kicad6-libraries
+PG-DSO-12-11_VIA
+Infineon PG-DSO 12 pin, exposed pad: 4.5x8.1mm, with thermal vias (https://www.infineon.com/cms/en/product/packages/PG-DSO/PG-DSO-12-11/)
+PG-DSO
+0
+23
+13
+kicad6-libraries
 Shunt_1206
 
 net tie
@@ -85033,7 +84991,7 @@ TE_284617-1
 
 
 0
-159
+154
 154
 kicad6-libraries
 TE_368255-2
