@@ -53,3 +53,6 @@ Q4,
 
 #ETB driver
 U2,
+
+
+#include board_id_154hyundai-c.csv
