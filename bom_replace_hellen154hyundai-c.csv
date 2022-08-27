@@ -25,8 +25,8 @@ U480,"AP2331W-7","SOT-23","C460346"
 L421,"MWSA0503S-100MT","SMD-5.2x5.4x2.8","C408412"
 L420,"LBC3225T2R2MR","1210","C223413"
 
-#accelerometer
-U4,"LIS2DH12TR","LGA-12","C110926"
+# being cheap since no code for accelerometer
+U4,
 
 #INJ low-side
 Q305,NCV8440ASTT3G,"SOT-223",C604063
@@ -52,7 +52,8 @@ Q3,
 Q4,
 
 #ETB driver
-U2,
+# using substitution TLE9201SG
+U2,"IFX9201SG","Infineon_PG-DSO-12-11","C112633"
 
 
 #include board_id_154hyundai-c.csv
