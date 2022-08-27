@@ -15,4 +15,5 @@
   (lib (name "hellen-one-dinput4-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/dinput4/0.1/dinput4.kicad_sym")(options "")(descr "Hellen-One Digital Inputs Module"))
   (lib (name "284617-1")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/TE_284617-1.kicad_sym")(options "")(descr ""))
   (lib (name "chips")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/chips.kicad_sym")(options "")(descr ""))
+  (lib (name "semiconductors")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/semiconductors.kicad_sym")(options "")(descr ""))
 )
