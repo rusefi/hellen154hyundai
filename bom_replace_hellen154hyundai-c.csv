@@ -61,6 +61,7 @@ Q4,
 #74HC2G17GW,125
 U490,
 U491,
-
+#main connector
+P1,
 
 #include board_id_154hyundai-c.csv
