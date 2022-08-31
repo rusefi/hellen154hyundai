@@ -33,7 +33,6 @@ Comment,Designator,Footprint,LCSC Part #
 "AudioJack3_SwitchTR","J25","Jack_3.5mm_PJ-3250-5A","C165947"
 "Conn_01x04","J39","PinHeader_2x02_P2.54mm_Vertical",""
 "USB_B","J40","USB_B_OST_USB-B1HSxx_Horizontal","C46392"
-"284617-1","P1","TE_284617-1",""
 "Pad","P2","PAD-TH",""
 "Pad","P3","PAD-TH",""
 "Pad","P4","PAD-TH",""
