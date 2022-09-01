@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>C:\Work\rusefi\github\hellen154hyundai\hellen154hyundai.kicad_sch</source>
-    <date>31/08/2022 22:59:09</date>
-    <tool>Eeschema (6.0.0)</tool>
+    <date>9/1/2022 5:14:17 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>hellen154hyundai</title>
@@ -946,10 +946,10 @@
       <value>Conn_02x06_Top_Bottom</value>
       <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical</footprint>
       <fields>
-        <field name="LCSC">C27524</field>
+        <field name="LCSC">C239476</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x06_Top_Bottom" description="Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="LCSC" value="C27524"/>
+      <property name="LCSC" value="C239476"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1052,7 +1052,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>55b40ec7-180b-4cdb-a45d-769423e8b51b 2491bc1e-e5b1-4fb8-a6b1-0e8865d2abd0 ef04da57-4b19-4699-a300-a7c31972f660 0437e834-c13e-424a-9ad2-040b8ce9ed1d</tstamps>
+      <tstamps>ef04da57-4b19-4699-a300-a7c31972f660 2491bc1e-e5b1-4fb8-a6b1-0e8865d2abd0 55b40ec7-180b-4cdb-a45d-769423e8b51b 0437e834-c13e-424a-9ad2-040b8ce9ed1d</tstamps>
     </comp>
     <comp ref="M2">
       <value>Module-ign8-0.2</value>
@@ -1088,7 +1088,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7fa631c3-5a5c-4173-8cc3-b1cf6763d6b5 6baf8b7a-6170-464b-acc3-03c18efb8cc9 6363b054-e5ff-47f8-abf0-9e2aa67beb56</tstamps>
+      <tstamps>6baf8b7a-6170-464b-acc3-03c18efb8cc9 7fa631c3-5a5c-4173-8cc3-b1cf6763d6b5 6363b054-e5ff-47f8-abf0-9e2aa67beb56</tstamps>
     </comp>
     <comp ref="M6">
       <value>Module-can-0.1</value>
@@ -2979,7 +2979,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ca5a3657-25e2-4020-a043-a7026e9204ac c43c9d4a-5fad-42c9-a7c6-3c2ef0041169 4fc00b0e-4906-49b6-906e-53ecedee471b</tstamps>
+      <tstamps>c43c9d4a-5fad-42c9-a7c6-3c2ef0041169 ca5a3657-25e2-4020-a043-a7026e9204ac 4fc00b0e-4906-49b6-906e-53ecedee471b</tstamps>
     </comp>
     <comp ref="U4">
       <value>LPS25HB</value>

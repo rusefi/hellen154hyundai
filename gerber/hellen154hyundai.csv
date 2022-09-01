@@ -73,7 +73,7 @@
 "PROTO_AREA_2","G9","hellen-one-common:PROTO_AREA_2",""
 "PROTO_AREA_2","G10","hellen-one-common:PROTO_AREA_2",""
 "Conn_01x05_Male","J1","Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical",""
-"Conn_02x06_Top_Bottom","J2","Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical","C27524"
+"Conn_02x06_Top_Bottom","J2","Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical","C239476"
 "Conn_01x06","J3","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",""
 "Conn_01x01","J19","TestPoint:TestPoint_Pad_D2.0mm",""
 "Conn_01x01","J20","TestPoint:TestPoint_Pad_D2.0mm",""
