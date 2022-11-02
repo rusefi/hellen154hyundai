@@ -51,6 +51,10 @@ U7,"IFX9201SG","Infineon_PG-DSO-12-11","C112633"
 #pressure sensor
 U4,"LPS22HBTR","HLGA-10L","C94049"
 
+# CAM and CRANK/high-speed filter
+C221,1n,"C0603",C1588
+C222,1n,"C0603",C1588
+
 
 #non-JLC components
 #IGBT
