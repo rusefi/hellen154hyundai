@@ -1,0 +1,67 @@
+# remove the jumper connection from VCC_PP1 to +5V: we need +12v power supply for push-pull outputs.
+R309,
+
+# remove +5V pull-ups from SPI1, because we use it with +3.3v accelerometer
+R103,
+R105,
+
+# remove jumper resistor connecting BOOT1 with A22 input line, because we use STM32F4
+R131,
+
+
+# STM32
+U105,"STM32F427ZGT6","LQFP144","C117816"
+# clock crystal
+Y101,"SC-20S,32.768kHz,20PPM,7pF","2012","C97602"
+
+# LMR14020->LMR14030 (more power, no problem)
+U420,"LMR14030","SOP8","C182078"
+
+#power distribution
+U103,"AP2331W-7","SOT-23","C460346"
+U480,"AP2331W-7","SOT-23","C460346"
+
+# DC-DC Inductor
+L421,"MWSA0503S-100MT","SMD-5.2x5.4x2.8","C408412"
+L420,"LBC3225T2R2MR","1210","C223413"
+
+# being cheap since no code for accelerometer
+U1,
+
+#fuses
+F1,"Fuse-5A-1206","F1206","C553924"
+F410,"nSMD050-24V","F1206","C70076"
+F300,"nSMD050-24V","F1206","C70076"
+
+#INJ low-side
+Q305,NCV8440ASTT3G,"SOT-223",C604063
+Q306,NCV8440ASTT3G,"SOT-223",C604063
+Q307,NCV8440ASTT3G,"SOT-223",C604063
+Q308,NCV8440ASTT3G,"SOT-223",C604063
+Q309,NCV8440ASTT3G,"SOT-223",C604063
+Q310,NCV8440ASTT3G,"SOT-223",C604063
+Q311,NCV8440ASTT3G,"SOT-223",C604063
+Q312,NCV8440ASTT3G,"SOT-223",C604063
+
+#ETB driver
+# using substitution TLE9201SG
+U6,"IFX9201SG","Infineon_PG-DSO-12-11","C112633"
+U7,"IFX9201SG","Infineon_PG-DSO-12-11","C112633"
+
+#pressure sensor
+U4,"LPS22HBTR","HLGA-10L","C94049"
+
+
+#non-JLC components
+#IGBT
+Q1,
+Q2,
+Q3,
+Q4,
+#74HC2G17GW,125
+U490,
+U491,
+#main connector
+P1,
+
+#include board_id_154hyundai-c.csv
