@@ -110,6 +110,7 @@ Comment,Designator,Footprint,LCSC Part #
 "Pad","P85","PAD-TH",""
 "Pad","P86","PAD-TH",""
 "Pad","P87","PAD-TH",""
+"ISL9V3040D3S","Q1, Q2, Q3, Q4","DPAK","C462128"
 "VND14NV04TR-E","Q5, Q6, Q10","DPAK","C155605"
 "2N7002","Q7, Q8, Q9","SOT-23","C8545"
 "470","R1","R0603-4","C25510"
