@@ -55,6 +55,14 @@ U4,"LPS22HBTR","HLGA-10L","C94049"
 C221,1n,"C0603",C1588
 C222,1n,"C0603",C1588
 
+#unused
+U300,
+U303,
+
+#a bit optional
+U103,
+U480,
+U2,
 
 #non-JLC components
 #IGBT
