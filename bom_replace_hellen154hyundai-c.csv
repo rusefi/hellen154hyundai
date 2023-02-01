@@ -64,4 +64,4 @@ U491,
 #main connector
 P1,
 
-#include board_id_154hyundai-c.csv
+#include hellen-one/board_id/generated/board_id_154hyundai-c.csv
