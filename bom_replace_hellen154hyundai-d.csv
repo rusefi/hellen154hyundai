@@ -1,13 +1,17 @@
-# remove the jumper connection from VCC_PP1 to +5V: we need +12v power supply for push-pull outputs.
-R309,
-
-# remove +5V pull-ups from SPI1, because we use it with +3.3v accelerometer
+############# MM SETUP ###############
+# remove +5V pull-ups from SPI2, 3.3v compatible SPI
 R103,
 R105,
 
 # remove jumper resistor connecting BOOT1 with A22 input line, because we use STM32F4
 R131,
 
+#WITHOUT CAN WAKEUP (enabled O2S input)
+R145, 
+############# MM SETUP ###############
+
+# remove the jumper connection from VCC_PP1 to +5V: we need +12v power supply for push-pull outputs.
+R309,
 
 # STM32
 U105,"STM32F427ZGT6","LQFP144","C117816"
@@ -17,16 +21,12 @@ Y101,"SC-20S,32.768kHz,20PPM,7pF","2012","C97602"
 # LMR14020->LMR14030 (more power, no problem)
 U420,"LMR14030","SOP8","C182078"
 
-#power distribution
-U103,"AP2331W-7","SOT-23","C460346"
-U480,"AP2331W-7","SOT-23","C460346"
-
 # DC-DC Inductor
 L421,"MWSA0503S-100MT","SMD-5.2x5.4x2.8","C408412"
 L420,"LBC3225T2R2MR","1210","C223413"
 
 # being cheap since no code for accelerometer
-U1,
+U106,
 
 #fuses
 F1,"Fuse-5A-1206","F1206","C553924"
@@ -48,13 +48,6 @@ Q312,NCV8440ASTT3G,"SOT-223",C604063
 U6,"IFX9201SG","Infineon_PG-DSO-12-11","C112633"
 U7,"IFX9201SG","Infineon_PG-DSO-12-11","C112633"
 
-#pressure sensor
-U4,"LPS22HBTR","HLGA-10L","C94049"
-
-# CAM and CRANK/high-speed filter
-C221,1n,"C0603",C1588
-C222,1n,"C0603",C1588
-
 #unused
 U300,
 U303,
@@ -62,9 +55,7 @@ U430,
 D430,
 
 #a bit optional
-U103,
 U480,
-U2,
 
 Q1,"IGBT","TO-252AA",C462128
 Q2,"IGBT","TO-252AA",C462128
@@ -72,10 +63,8 @@ Q3,"IGBT","TO-252AA",C462128
 Q4,"IGBT","TO-252AA",C462128
 
 #non-JLC components
-#74HC2G17GW,125
-U490,
-U491,
 #main connector
 P1,
 
 #include hellen-one/board_id/generated/board_id_154hyundai-d.csv
+#include bom_pullups_hellen154hyundai-d.csv
