@@ -2,7 +2,7 @@
 (rule "MountingHole"
 	(layer outer)
    (constraint clearance (min 2.5mm))
-   (condition "A.Hole_Size_X > 4mm"))
+   (condition "A.Hole_Size_X > 6mm"))
 
 (rule HV
    (constraint clearance (min 0.5mm))
