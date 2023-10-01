@@ -12,7 +12,6 @@ Comment,Designator,Footprint,LCSC Part #
 "LED-WHITE-0603","D16, D17, D18, D19, D36, D37, D38","LED-0603","C2290"
 "Fuse-16A","F3, F4, F5, F6","36911600000","C354908"
 "Conn_02x06_Top_Bottom","J2","Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical","C239476"
-"AudioJack3_SwitchTR","J25","Jack_3.5mm_PJ-3250-5A","C165947"
 "USB_B","J40","USB_B_OST_USB-B1HSxx_Horizontal","C46392"
 "ISL9V3040D3S","Q1, Q2, Q3, Q4","DPAK","C462128"
 "VND14NV04TR-E","Q5, Q6, Q10","DPAK","C155605"
