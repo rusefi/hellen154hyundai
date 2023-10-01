@@ -66,5 +66,14 @@ Q4,"IGBT","TO-252AA",C462128
 #main connector
 P1,
 
+# knock audio never used
+J25,
+# SD break-out not needed
+J3,
+# hit the case just a bit
+P480,
+# something not needed
+J39,
+
 #include hellen-one/board_id/generated/board_id_154hyundai-d.csv
 #include bom_pullups_hellen154hyundai-d.csv
