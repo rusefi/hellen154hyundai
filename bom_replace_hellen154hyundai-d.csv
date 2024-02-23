@@ -14,51 +14,21 @@ R145,
 R309,
 
 # STM32
-U105,"STM32F427ZGT6","LQFP144","C117816"
-# clock crystal
-Y101,"SC-20S,32.768kHz,20PPM,7pF","2012","C97602"
-
-# LMR14020->LMR14030 (more power, no problem)
-U420,"LMR14030","SOP8","C182078"
-
-# DC-DC Inductor
-L421,"MWSA0503S-100MT","SMD-5.2x5.4x2.8","C408412"
-L420,"LBC3225T2R2MR","1210","C223413"
+U105,"STM32F767","LQFP144","C91685"
 
 # being cheap since no code for accelerometer
 U106,
 
-#fuses
-F1,"Fuse-5A-1206","F1206","C553924"
-F410,"nSMD050-24V","F1206","C70076"
-F300,"nSMD050-24V","F1206","C70076"
-
-#INJ low-side
-Q305,NCV8440ASTT3G,"SOT-223",C604063
-Q306,NCV8440ASTT3G,"SOT-223",C604063
-Q307,NCV8440ASTT3G,"SOT-223",C604063
-Q308,NCV8440ASTT3G,"SOT-223",C604063
-Q309,NCV8440ASTT3G,"SOT-223",C604063
-Q310,NCV8440ASTT3G,"SOT-223",C604063
-Q311,NCV8440ASTT3G,"SOT-223",C604063
-Q312,NCV8440ASTT3G,"SOT-223",C604063
-
-#ETB driver
-# using substitution TLE9201SG
-U6,"IFX9201SG","Infineon_PG-DSO-12-11","C112633"
-U7,"IFX9201SG","Infineon_PG-DSO-12-11","C112633"
-
 #20MHz crystal
 Y102,"TXM20M0002503LFBEO00T","SMD5032-2P","C362485"
 
-#unused
-U300,
-U303,
+#do not populate second CAN transceiver
 U430,
 D430,
 
-#a bit optional
-U480,
+#do not populate knock audio, never used
+J25,
+
 
 Q1,"IGBT","TO-252AA",C462128
 Q2,"IGBT","TO-252AA",C462128
@@ -68,15 +38,6 @@ Q4,"IGBT","TO-252AA",C462128
 #non-JLC components
 #main connector
 P1,
-
-# knock audio never used
-J25,
-# SD break-out not needed
-J3,
-# hit the case just a bit
-P480,
-# something not needed
-J39,
 
 #include hellen-one/board_id/generated/board_id_154hyundai-d.csv
 #include bom_pullups_hellen154hyundai-d.csv
