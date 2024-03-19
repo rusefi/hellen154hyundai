@@ -14,4 +14,6 @@
   (lib (name "kicad6-libraries")(type "KiCad")(uri "${KIPRJMOD/kicad6-libraries")(options "")(descr ""))
   (lib (name "hellen-one-mega-mcu144-0.6")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mega-mcu144/0.6")(options "")(descr ""))
   (lib (name "hellen-one-power_12and5V-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/power_12and5V/0.2")(options "")(descr ""))
+  (lib (name "hellen-one-motor-driver-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/motor-driver/0.1")(options "")(descr ""))
+  (lib (name "hellen-one-mcz33810-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mcz33810/0.1")(options "")(descr ""))
 )

@@ -423,7 +423,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -561,6 +561,18 @@
     [
       "63d2dd9f-d5ff-4811-a88d-0ba932475460",
       ""
+    ],
+    [
+      "13be4135-faba-4027-a7d2-b0b805640c43",
+      "LS4 FLYBACK1"
+    ],
+    [
+      "e65460d5-8352-4adf-bb51-e1d910bd78cd",
+      "LS6"
+    ],
+    [
+      "cb1722d2-303b-4e24-b90e-b68638342983",
+      "LS4 FLYBACK2"
     ]
   ],
   "text_variables": {}
