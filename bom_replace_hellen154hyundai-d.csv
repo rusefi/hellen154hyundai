@@ -26,15 +26,6 @@ Y102,"TXM20M0002503LFBEO00T","SMD5032-2P","C362485"
 U430,
 D430,
 
-#do not populate knock audio, never used
-J25,
-
-
-Q1,"IGBT","TO-252AA",C462128
-Q2,"IGBT","TO-252AA",C462128
-Q3,"IGBT","TO-252AA",C462128
-Q4,"IGBT","TO-252AA",C462128
-
 #non-JLC components
 #main connector
 P1,
