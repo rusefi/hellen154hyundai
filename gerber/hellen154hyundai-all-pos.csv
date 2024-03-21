@@ -80,8 +80,6 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J40","USB_B","USB_B_OST_USB-B1HSxx_Horizontal",37.337501,20.584160,-90.000000,top
 "M1","Module-mega-mcu144-0.6","mega-mcu144",114.592188,65.651268,180.000000,top
 "M2","Module-power_12and5V-0.2","power_12and5V",61.350000,110.174999,-90.000000,top
-"M3","Module-motor-driver-0.1","motor-driver",26.525000,107.175000,-90.000000,top
-"M4","Module-motor-driver-0.1","motor-driver",99.275000,113.225000,180.000000,top
 "M5","Module-wbo-0.5","wbo",26.250000,24.900000,0.000000,top
 "M6","Module-can-0.1","can",57.975005,15.850003,0.000000,top
 "M9","Module-knock-0.2","knock",57.474999,110.150000,-90.000000,top
