@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen154hyundai/hellen154hyundai/hellen154hyundai.kicad_sch</source>
-    <date>Thu Mar 21 18:49:58 2024</date>
+    <date>Thu Mar 21 18:59:33 2024</date>
     <tool>Eeschema 7.0.11-7.0.11~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -665,6 +665,15 @@
       <property name="ki_description" value="Hellen-One Power_12and5V Module"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>152358f4-0b2e-4f94-bcd6-f4fa560b0f69</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>Module-mcz33810-0.1</value>
+      <footprint>hellen-one-mcz33810-0.1:mcz33810</footprint>
+      <libsource lib="hellen-one-mcz33810-0.1" part="Module-mcz33810-0.1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3739a80f-1858-410f-abda-b541dcb55cf8</tstamps>
     </comp>
     <comp ref="M5">
       <value>Module-wbo-0.5</value>
@@ -2967,6 +2976,42 @@
         <pin num="W2" name="VREF" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="hellen-one-mcz33810-0.1" part="Module-mcz33810-0.1">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Module-mcz33810-0.1</field>
+        <field name="Footprint">hellen-one-mcz33810-0.1:mcz33810</field>
+      </fields>
+      <pins>
+        <pin num="E1" name="OUT_INJ4" type="passive"/>
+        <pin num="E2" name="OUT_INJ3" type="passive"/>
+        <pin num="E3" name="OUT_INJ1" type="passive"/>
+        <pin num="E4" name="OUT_INJ2" type="passive"/>
+        <pin num="G" name="GND" type="passive"/>
+        <pin num="N1" name="OUT_IGN1" type="passive"/>
+        <pin num="N2" name="OUT_IGN2" type="passive"/>
+        <pin num="N3" name="OUT_IGN3" type="passive"/>
+        <pin num="N4" name="OUT_IGN4" type="passive"/>
+        <pin num="S1" name="INJ4" type="passive"/>
+        <pin num="S2" name="INJ3" type="passive"/>
+        <pin num="S3" name="INJ2" type="passive"/>
+        <pin num="S4" name="~SPKDUR" type="passive"/>
+        <pin num="S5" name="IGN4" type="passive"/>
+        <pin num="S6" name="IGN3" type="passive"/>
+        <pin num="S7" name="IGN2" type="passive"/>
+        <pin num="S8" name="IGN1" type="passive"/>
+        <pin num="S9" name="INJ1" type="passive"/>
+        <pin num="S10" name="~OUTEN" type="passive"/>
+        <pin num="S11" name="NOMI" type="passive"/>
+        <pin num="S12" name="MAXI" type="passive"/>
+        <pin num="S13" name="MISO" type="passive"/>
+        <pin num="S14" name="MOSI" type="passive"/>
+        <pin num="S15" name="SCLK" type="passive"/>
+        <pin num="S16" name="~CS" type="passive"/>
+        <pin num="S17" name="12V_IN" type="passive"/>
+        <pin num="S18" name="3V3_IN" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="hellen-one-mega-mcu144-0.6" part="Module-mega-mcu144-0.6">
       <description>Hellen One MEGA_MCU144 Module</description>
       <footprints>
@@ -3203,6 +3248,9 @@
     <library logical="hellen-one-knock-0.2">
       <uri>/home/runner/work/hellen154hyundai/hellen154hyundai/hellen-one/modules/knock/0.2/knock.kicad_sym</uri>
     </library>
+    <library logical="hellen-one-mcz33810-0.1">
+      <uri>/home/runner/work/hellen154hyundai/hellen154hyundai/hellen-one/modules/mcz33810/0.1/mcz33810.kicad_sym</uri>
+    </library>
     <library logical="hellen-one-mega-mcu144-0.6">
       <uri>/home/runner/work/hellen154hyundai/hellen154hyundai/hellen-one/modules/mega-mcu144/0.6/mega-mcu144.kicad_sym</uri>
     </library>
@@ -3222,6 +3270,7 @@
   <nets>
     <net code="1" name="+3.3VA">
       <node ref="M1" pin="N28" pinfunction="V33_SWITCHABLE" pintype="passive"/>
+      <node ref="M3" pin="S18" pinfunction="3V3_IN" pintype="passive"/>
     </net>
     <net code="2" name="+3V3">
       <node ref="G10" pin="3" pintype="passive"/>
@@ -3280,6 +3329,7 @@
       <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="M2" pin="V3" pinfunction="V12_RAW" pintype="passive"/>
+      <node ref="M3" pin="S17" pinfunction="12V_IN" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R7" pin="3" pintype="passive"/>
@@ -3404,31 +3454,39 @@
     </net>
     <net code="31" name="/IGN1">
       <node ref="M1" pin="E21" pinfunction="OUT_IO4" pintype="passive"/>
+      <node ref="M3" pin="S8" pinfunction="IGN1" pintype="passive"/>
     </net>
     <net code="32" name="/IGN2">
       <node ref="M1" pin="E7" pinfunction="OUT_IO5" pintype="passive"/>
+      <node ref="M3" pin="S7" pinfunction="IGN2" pintype="passive"/>
     </net>
     <net code="33" name="/IGN3">
       <node ref="M1" pin="E9" pinfunction="OUT_IO6" pintype="passive"/>
+      <node ref="M3" pin="S6" pinfunction="IGN3" pintype="passive"/>
     </net>
     <net code="34" name="/IGN4">
       <node ref="M1" pin="E24" pinfunction="OUT_IO11" pintype="passive"/>
+      <node ref="M3" pin="S5" pinfunction="IGN4" pintype="passive"/>
     </net>
     <net code="35" name="/INJ1">
       <node ref="D9" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="M1" pin="E19" pinfunction="OUT_INJ1" pintype="passive"/>
+      <node ref="M3" pin="S9" pinfunction="INJ1" pintype="passive"/>
     </net>
     <net code="36" name="/INJ2">
       <node ref="D8" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="M1" pin="E18" pinfunction="OUT_INJ2" pintype="passive"/>
+      <node ref="M3" pin="S3" pinfunction="INJ2" pintype="passive"/>
     </net>
     <net code="37" name="/INJ3">
       <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="M1" pin="E29" pinfunction="OUT_INJ3" pintype="passive"/>
+      <node ref="M3" pin="S2" pinfunction="INJ3" pintype="passive"/>
     </net>
     <net code="38" name="/INJ4">
       <node ref="D6" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="M1" pin="E30" pinfunction="OUT_INJ4" pintype="passive"/>
+      <node ref="M3" pin="S1" pinfunction="INJ4" pintype="passive"/>
     </net>
     <net code="39" name="/IN_AC_ON">
       <node ref="M1" pin="S17" pinfunction="IN_RES1" pintype="passive"/>
@@ -3539,9 +3597,11 @@
     </net>
     <net code="64" name="/MAXI">
       <node ref="M1" pin="N19" pinfunction="IO2" pintype="passive"/>
+      <node ref="M3" pin="S12" pinfunction="MAXI" pintype="passive"/>
     </net>
     <net code="65" name="/NOMI">
       <node ref="M1" pin="N21" pinfunction="IO3" pintype="passive"/>
+      <node ref="M3" pin="S11" pinfunction="NOMI" pintype="passive"/>
     </net>
     <net code="66" name="/OUT_AC_RELAY">
       <node ref="D18" pin="2" pinfunction="K" pintype="passive"/>
@@ -3606,27 +3666,35 @@
       <node ref="U1" pin="8" pinfunction="D1" pintype="power_out"/>
     </net>
     <net code="78" name="/OUT_IGN1">
+      <node ref="M3" pin="N1" pinfunction="OUT_IGN1" pintype="passive"/>
       <node ref="P1" pin="31" pinfunction="31" pintype="passive"/>
     </net>
     <net code="79" name="/OUT_IGN2">
+      <node ref="M3" pin="N2" pinfunction="OUT_IGN2" pintype="passive"/>
       <node ref="P1" pin="16" pinfunction="16" pintype="passive"/>
     </net>
     <net code="80" name="/OUT_IGN3">
+      <node ref="M3" pin="N3" pinfunction="OUT_IGN3" pintype="passive"/>
       <node ref="P1" pin="46" pinfunction="46" pintype="passive"/>
     </net>
     <net code="81" name="/OUT_IGN4">
+      <node ref="M3" pin="N4" pinfunction="OUT_IGN4" pintype="passive"/>
       <node ref="P1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="82" name="/OUT_INJ1">
+      <node ref="M3" pin="E3" pinfunction="OUT_INJ1" pintype="passive"/>
       <node ref="P1" pin="85" pinfunction="25" pintype="passive"/>
     </net>
     <net code="83" name="/OUT_INJ2">
+      <node ref="M3" pin="E4" pinfunction="OUT_INJ2" pintype="passive"/>
       <node ref="P1" pin="86" pinfunction="26" pintype="passive"/>
     </net>
     <net code="84" name="/OUT_INJ3">
+      <node ref="M3" pin="E2" pinfunction="OUT_INJ3" pintype="passive"/>
       <node ref="P1" pin="87" pinfunction="27" pintype="passive"/>
     </net>
     <net code="85" name="/OUT_INJ4">
+      <node ref="M3" pin="E1" pinfunction="OUT_INJ4" pintype="passive"/>
       <node ref="P1" pin="88" pinfunction="28" pintype="passive"/>
     </net>
     <net code="86" name="/OUT_MAIN_RELAY">
@@ -3679,6 +3747,7 @@
     </net>
     <net code="97" name="/SPI3_CS_33810">
       <node ref="M1" pin="E27" pinfunction="OUT_PWM1" pintype="passive"/>
+      <node ref="M3" pin="S16" pinfunction="~CS" pintype="passive"/>
     </net>
     <net code="98" name="/SPI3_CS_ETB">
       <node ref="M1" pin="N10" pinfunction="SPI3_CS" pintype="passive"/>
@@ -3688,12 +3757,15 @@
     </net>
     <net code="100" name="/SPI3_MISO">
       <node ref="M1" pin="N12" pinfunction="SPI3_MISO" pintype="passive"/>
+      <node ref="M3" pin="S13" pinfunction="MISO" pintype="passive"/>
     </net>
     <net code="101" name="/SPI3_MOSI">
       <node ref="M1" pin="N13" pinfunction="SPI3_MOSI" pintype="passive"/>
+      <node ref="M3" pin="S14" pinfunction="MOSI" pintype="passive"/>
     </net>
     <net code="102" name="/SPI3_SCK">
       <node ref="M1" pin="N11" pinfunction="SPI3_SCK" pintype="passive"/>
+      <node ref="M3" pin="S15" pinfunction="SCLK" pintype="passive"/>
     </net>
     <net code="103" name="/TACH">
       <node ref="M1" pin="E25" pinfunction="OUT_PWM7" pintype="passive"/>
@@ -3772,9 +3844,11 @@
     </net>
     <net code="121" name="/~OUTEN">
       <node ref="M1" pin="N20" pinfunction="IO4" pintype="passive"/>
+      <node ref="M3" pin="S10" pinfunction="~OUTEN" pintype="passive"/>
     </net>
     <net code="122" name="/~SPKDUR">
       <node ref="M1" pin="N16" pinfunction="IO1" pintype="passive"/>
+      <node ref="M3" pin="S4" pinfunction="~SPKDUR" pintype="passive"/>
     </net>
     <net code="123" name="GND">
       <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
@@ -3791,6 +3865,7 @@
       <node ref="J40" pin="5" pinfunction="Shield" pintype="passive"/>
       <node ref="M1" pin="G" pinfunction="GND" pintype="passive"/>
       <node ref="M2" pin="S1" pinfunction="GND" pintype="passive"/>
+      <node ref="M3" pin="G" pinfunction="GND" pintype="passive"/>
       <node ref="M5" pin="E6" pinfunction="LSU_H-" pintype="passive"/>
       <node ref="M5" pin="G" pinfunction="GND" pintype="passive"/>
       <node ref="M6" pin="E1" pinfunction="GND" pintype="passive"/>
