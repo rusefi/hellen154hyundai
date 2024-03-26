@@ -54,6 +54,7 @@ Comment,Designator,Footprint,LCSC Part #
 "USB_B","J40","USB_B_OST_USB-B1HSxx_Horizontal","C46392"
 "Module:mega-mcu144/0.6","M1","mega-mcu144",""
 "Module:power_12and5V/0.2","M2","power_12and5V",""
+"Module:mcz33810/0.1","M3","mcz33810",""
 "Module:wbo/0.5","M5","wbo",""
 "Module:can/0.1","M6","can",""
 "Module:knock/0.2","M9","knock",""
