@@ -45,6 +45,6 @@ D430,
 P1,"154","154",C9900079294
 
 #include hellen-one/board_id/generated/board_id_154hyundai-d.csv
-#include hellen-one/modules/power_12and5V/board_id/generated/unified-replace-power-supply.csv
+#include hellen-one/modules/power_12and5V/unified-replace-power-supply.csv
 #include hellen-one/modules/wbo/unified-replace-wbo.csv
 #include bom_pullups_hellen154hyundai-d.csv
