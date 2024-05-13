@@ -10,9 +10,6 @@ R131,
 R145, 
 ############# MM SETUP ###############
 
-# remove the jumper connection from VCC_PP1 to +5V: we need +12v power supply for push-pull outputs.
-R309,
-
 # STM32
 U105,"STM32F767","LQFP144","C91685"
 
