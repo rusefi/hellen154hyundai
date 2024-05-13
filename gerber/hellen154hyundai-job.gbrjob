@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.2-8.0.2-0~ubuntu22.04.1"
     },
-    "CreationDate": "2024-05-13T13:37:30+00:00"
+    "CreationDate": "2024-05-13T18:20:47+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "hellen154hyundai",
       "GUID": "68656c6c-656e-4313-9534-6879756e6461",
-      "Revision": "D"
+      "Revision": "E"
     },
     "Size": {
       "X": 164.05,
