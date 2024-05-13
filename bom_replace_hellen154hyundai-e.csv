@@ -28,11 +28,18 @@ C133,"1u","C0603","C519559"
 #20k x4
 "R7,R16,R76","20k","R0603x4","C102655"
 
-#Green LEDs
+#LEDs
 "D601,D104,D108","XL-1608UGC-04","LED0603","C965804"
+"D105,D109,D110,D111,D112,D113,D114,D115,D116,D602","0603-blue","LED0603","C497940"
 
 #20MHz crystal
 Y102,"TXM20M0002503LFBEO00T","SMD5032-2P","C362485"
+
+#Fuses
+F1,"5A","F1206","C553924"
+
+#SD Card
+J100,"TF-014-H16","SMD","C125814"
 
 #do not populate second CAN transceiver
 U430,
@@ -41,7 +48,7 @@ D430,
 #main connector
 P1,"154","154",C9900079294
 
-#include hellen-one/board_id/generated/board_id_154hyundai-d.csv
+#include hellen-one/board_id/generated/board_id_154hyundai-e.csv
 #include hellen-one/modules/power_12and5V/unified-replace-power-supply.csv
 #include hellen-one/modules/wbo/unified-replace-wbo.csv
-#include bom_pullups_hellen154hyundai-d.csv
+#include bom_pullups_hellen154hyundai-e.csv
