@@ -2,7 +2,7 @@
 
 BOARD_PREFIX=hellen
 BOARD_SUFFIX=154hyundai
-BOARD_REVISION=e
+BOARD_REVISION=f
 
 # does not affect fab files, only needed to have nice rendered preview
 BOARD_PCB_OFFSET=0,887
