@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen154hyundai/hellen154hyundai/hellen154hyundai.kicad_sch</source>
-    <date>2024-07-09T12:43:50+0000</date>
-    <tool>Eeschema 8.0.3-8.0.3-0~ubuntu22.04.1</tool>
+    <date>2024-12-13T18:33:42+0000</date>
+    <tool>Eeschema 8.0.7-8.0.7-0~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>hellen154hyundai</title>
