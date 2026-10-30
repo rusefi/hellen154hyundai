@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.7-8.0.7-0~ubuntu22.04.1"
+      "Version": "10.0.8-10.0.8~ubuntu24.04.1"
     },
-    "CreationDate": "2024-12-13T18:33:49+00:00"
+    "CreationDate": "2026-10-30T13:11:20+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -48,12 +48,12 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "hellen154hyundai-In1_Cu.g2",
+      "Path": "hellen154hyundai-In1_Cu.g1",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "hellen154hyundai-In2_Cu.g3",
+      "Path": "hellen154hyundai-In2_Cu.g2",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
