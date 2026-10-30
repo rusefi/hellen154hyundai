@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen154hyundai/hellen154hyundai/hellen154hyundai.kicad_sch</source>
-    <date>2026-10-30T13:11:17</date>
+    <date>2026-10-30T14:13:07</date>
     <tool>Eeschema 10.0.8-10.0.8~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -3264,16 +3264,16 @@
       </units>
     </comp>
     <comp ref="R14">
-      <value>DNP</value>
+      <value>1k</value>
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
-        <field name="LCSC"/>
+        <field name="LCSC">C21190</field>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C21190"/>
       <property name="Sheetname" value="hellen154hyundai"/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -3288,20 +3288,20 @@
       </units>
     </comp>
     <comp ref="R15">
-      <value>DNP</value>
+      <value>1k</value>
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
-        <field name="LCSC"/>
+        <field name="LCSC">C21190</field>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C21190"/>
       <property name="Sheetname" value="hellen154hyundai"/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7d914c3b-f6da-44e0-a49c-1f3a32eddc3f</tstamps>
+      <tstamps>63d156d3-7b36-4496-be4e-01494b8ce2a7</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -3366,20 +3366,20 @@
       </units>
     </comp>
     <comp ref="R18">
-      <value>DNP</value>
+      <value>1k</value>
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
-        <field name="LCSC"/>
+        <field name="LCSC">C21190</field>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C21190"/>
       <property name="Sheetname" value="hellen154hyundai"/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9bcc8485-5233-42f7-8697-a331a0016f99</tstamps>
+      <tstamps>b041d4d8-8d91-426d-99db-0dd4336b5e43</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -3486,20 +3486,20 @@
       </units>
     </comp>
     <comp ref="R23">
-      <value>680k</value>
+      <value>DNP</value>
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
-        <field name="LCSC">C25822</field>
+        <field name="LCSC"/>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
-      <property name="LCSC" value="C25822"/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value="hellen154hyundai"/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7dd976c3-7c64-457d-ba5f-08caa9d38a49</tstamps>
+      <tstamps>ec36f72c-bec1-47c6-ae3c-f3b9e70d6366</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -3510,20 +3510,20 @@
       </units>
     </comp>
     <comp ref="R24">
-      <value>680k</value>
+      <value>DNP</value>
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
-        <field name="LCSC">C25822</field>
+        <field name="LCSC"/>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
-      <property name="LCSC" value="C25822"/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value="hellen154hyundai"/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b20377e2-97fa-43c9-bcd2-b04802d87db7</tstamps>
+      <tstamps>e75d7ffb-b855-406b-af09-6629af8b1f09</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -3534,20 +3534,20 @@
       </units>
     </comp>
     <comp ref="R25">
-      <value>680k</value>
+      <value>DNP</value>
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
-        <field name="LCSC">C25822</field>
+        <field name="LCSC"/>
         <field name="Footprint">hellen-one-common:R0603</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
-      <property name="LCSC" value="C25822"/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value="hellen154hyundai"/>
       <property name="Sheetfile" value="hellen154hyundai.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>46c059f2-b5c9-4e7f-9d65-2355cd47f2d2</tstamps>
+      <tstamps>3ca2e18f-c6a0-4640-acf4-5de3ca037e2b</tstamps>
       <units>
         <unit name="A">
           <pins>
