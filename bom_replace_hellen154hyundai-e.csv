@@ -17,6 +17,9 @@ U106,
 #LS
 "U1,U2,U3,U4,U5,U6,U7,U12","BM2LC105FJ","SO-8","C3235499"
 
+#DNP Brake inputjumper
+R55,
+
 #do not populate second CAN transceiver
 U430,
 D430,
